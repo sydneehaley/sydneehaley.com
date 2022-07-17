@@ -1,0 +1,15 @@
+{
+    "forms": {
+      "contactForm": {
+        "name": "Contact Form",
+        "fields": {
+          "fullname": { "type": "text", "required": true },
+          "email": { "type": "email", "required": true },
+          "inquiry": { "type": "text", "required": true }
+        },
+        "actions": [
+          { "type": "email", "to": "hello@sydneehaley.com" }
+        ]
+      }
+    }
+  }
