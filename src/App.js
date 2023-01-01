@@ -4,19 +4,19 @@ import logo from './logo.svg';
 import { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route, Link, Outlet, useRoutes, useParams, NavLink } from 'react-router-dom';
 import { FormspreeProvider } from '@formspree/react';
-import NavBar from './Components/NavBar';
-import Functions from './Components/Utils/Data/Functions';
+import NavBar from './components/NavBar';
+import Functions from './components/utils/data/Functions';
 
-import navbar_info from './Components/Utils/Assets/Icons/navbar_info.svg';
-import navbar_inquire from './Components/Utils/Assets/Icons/navbar_inquire.svg';
-import navbar_projects from './Components/Utils/Assets/Icons/navbar_projects.svg';
-import navbar_services from './Components/Utils/Assets/Icons/navbar_services.svg';
-import navbar_arrowdown from './Components/Utils/Assets/Icons/navbar_arrowdown.svg';
+import navbar_info from './components/utils/assets/icons/navbar_info.svg';
+import navbar_inquire from './components/utils/assets/icons/navbar_inquire.svg';
+import navbar_projects from './components/utils/assets/icons/navbar_projects.svg';
+import navbar_services from './components/utils/assets/icons/navbar_services.svg';
+import navbar_arrowdown from './components/utils/assets/icons/navbar_arrowdown.svg';
 import HomeIcon from '@mui/icons-material/Home';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
-import mobile_nav_icon from './Components/Utils/Assets/Icons/mobile_nav_icon.svg';
-import navbar_home from './Components/Utils/Assets/Icons/navbar_home.svg';
+import mobile_nav_icon from './components/utils/assets/icons/mobile_nav_icon.svg';
+import navbar_home from './components/utils/assets/icons/navbar_home.svg';
 import { css } from '@emotion/react';
 import RingLoader from 'react-spinners/RingLoader';
 

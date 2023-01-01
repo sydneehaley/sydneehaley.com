@@ -1,8 +1,7 @@
 import React, { useRef } from 'react';
 import { useForm, ValidationError } from '@formspree/react';
-import inquire_codepen from '../Components/Utils/Assets/Icons/inquire_codepen.svg';
-import inquire_github from '../Components/Utils/Assets/Icons/inquire_github.svg';
-import inquire_twitter from '../Components/Utils/Assets/Icons/inquire_twitter.svg';
+import inquire_codepen from '../components/utils/assets/icons/inquire_codepen.svg';
+import inquire_github from '../components/utils/assets/icons/inquire_github.svg';
 
 function Inquire() {
   const closeSuccessWindow = () => {
@@ -15,20 +14,21 @@ function Inquire() {
     <div className='inquire'>
       <div className='inquire__container'>
         <div className='inquire__container__header'>
-          <h1>{!state.succeeded ? `Let's work together.` : 'Thank you'}</h1>
+          <h1>{`Let's work together.`}</h1>
           <p>
-            {!state.succeeded
-              ? `Please contact me through the form below for all inquiries. Please allow minimum 3 business days for a response. Feel free to connect with me on social media.`
-              : null}
+            {`Please contact me at the email below for all inquiries. Please allow minimum 3 business days for a response. Feel free to connect with me on social media.`}
+          </p>
+
+          <p style={{ color: '#fff' }}>
+            <b>hello@sydneehaley.com</b>
           </p>
           <div className='inquire__container__header__social'>
-            <img src={inquire_twitter} />
             <img src={inquire_codepen} />
             <img src={inquire_github} />
           </div>
         </div>
 
-        <div id={state.succeeded ? 'nomargin' : null} className='inquire__form'>
+        {/* <div id={state.succeeded ? 'nomargin' : null} className='inquire__form'>
           {!state.succeeded ? (
             <form onSubmit={handleSubmit}>
               <div className='inquire__form__inputcontainer'>
@@ -63,7 +63,7 @@ function Inquire() {
           ) : (
             <button onClick={closeSuccessWindow}>Send Another Message</button>
           )}
-        </div>
+        </div> */}
       </div>
     </div>
   );

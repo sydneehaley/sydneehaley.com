@@ -1,15 +1,15 @@
 import React from 'react';
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import navbar_info from '../Components/Utils/Assets/Icons/navbar_info.svg';
-import navbar_inquire from '../Components/Utils/Assets/Icons/navbar_inquire.svg';
-import navbar_projects from '../Components/Utils/Assets/Icons/navbar_projects.svg';
-import navbar_services from '../Components/Utils/Assets/Icons/navbar_services.svg';
-import navbar_arrowdown from '../Components/Utils/Assets/Icons/navbar_arrowdown.svg';
+import navbar_info from '../components/utils/assets/icons/navbar_info.svg';
+import navbar_inquire from '../components/utils/assets/icons/navbar_inquire.svg';
+import navbar_projects from '../components/utils/assets/icons/navbar_projects.svg';
+import navbar_services from '../components/utils/assets/icons/navbar_services.svg';
+import navbar_arrowdown from '../components/utils/assets/icons/navbar_arrowdown.svg';
 import HomeIcon from '@mui/icons-material/Home';
 import CloseIcon from '@mui/icons-material/Close';
-import mobile_nav_icon from '../Components/Utils/Assets/Icons/mobile_nav_icon.svg';
-import navbar_home from '../Components/Utils/Assets/Icons/navbar_home.svg';
+import mobile_nav_icon from '../components/utils/assets/icons/mobile_nav_icon.svg';
+import navbar_home from '../components/utils/assets/icons/navbar_home.svg';
 
 const anchors = ['firstPage', 'secondPage', 'thirdPage', 'fourthPage'];
 

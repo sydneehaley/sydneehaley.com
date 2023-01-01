@@ -1,4 +1,4 @@
-import projects_webdev from '../Assets/Icons/projects_webdev.svg';
+import projects_webdev from '../assets/icons/projects_webdev.svg';
 
 export const Data = [
   {

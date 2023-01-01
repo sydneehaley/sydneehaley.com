@@ -1,11 +1,11 @@
 /*
 This CSS resource incorporates links to font software which is the valuable copyrighted property of Monotype and/or its suppliers. You may not attempt to copy, install, redistribute, convert, modify or reverse engineer this font software. Please contact Monotype with any questions regarding Web Fonts: http://www.fonts.com
 */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Syne:wght@400;500;700;800&display=swap");
-@import url("https://use.typekit.net/gfa6uyg.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Syne:wght@400;500;700;800&display=swap');
+@import url('https://use.typekit.net/gfa6uyg.css');
 @font-face {
-  font-family: "subjectivitymedium";
-  src: url("./Fonts/subjectivity-medium-webfont.woff2") format("woff2"), url("./Fonts/subjectivity-medium-webfont.woff") format("woff");
+  font-family: 'subjectivitymedium';
+  src: url('./fonts/subjectivity-medium-webfont.woff2') format('woff2'), url('./fonts/subjectivity-medium-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -213,7 +213,7 @@ nav {
   justify-content: center;
   padding: 0;
   margin: 0;
-  animation: "fade-in-keyframes 2s";
+  animation: 'fade-in-keyframes 2s';
 }
 
 .navbar__container li {
@@ -329,7 +329,7 @@ nav {
     justify-content: center;
     padding: 0;
     margin: 0;
-    animation: "fade-in-keyframes 2s";
+    animation: 'fade-in-keyframes 2s';
   }
 
   .navbar__container li {
@@ -1805,8 +1805,8 @@ nav {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin: 2rem 0 5rem 0;
+  justify-content: start;
+  margin: 11rem 0 5rem 0;
 }
 
 .inquire__container {

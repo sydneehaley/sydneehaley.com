@@ -1,5 +1,5 @@
 import React from 'react';
-import target from '../Components/Utils/Assets/Icons/target.svg';
+import target from '../components/utils/assets/icons/target.svg';
 
 const About = () => {
   return (
@@ -22,7 +22,7 @@ const About = () => {
               <div id='line'></div>
             </div>
             <div className='about__cards__card__content'>
-              <h6>Identity</h6> <p>I create identity systems for brands and entities. From logos to image-making, I create visual language. </p>
+              <h6>User Interface</h6> <p>I create identity systems for brands and entities. From logos to image-making, I create visual language. </p>
             </div>
           </div>
           <div className='about__cards__card'>
@@ -32,7 +32,7 @@ const About = () => {
             </div>
 
             <div className='about__cards__card__content'>
-              <h6>Print</h6> <p>Pixel perfect material for various types of printing. I design publications, posters, and more. </p>
+              <h6>Client</h6> <p>Pixel perfect material for various types of printing. I design publications, posters, and more. </p>
             </div>
           </div>
           <div className='about__cards__card'>
@@ -42,7 +42,7 @@ const About = () => {
             </div>
 
             <div className='about__cards__card__content'>
-              <h6>Screen</h6> <p>I design responsive websites, website themes, and user interfaces for the web. I optimize design for the screen. </p>
+              <h6>API</h6> <p>I design responsive websites, website themes, and user interfaces for the web. I optimize design for the screen. </p>
             </div>
           </div>
           <div className='about__cards__card'>
@@ -52,7 +52,7 @@ const About = () => {
             </div>
 
             <div className='about__cards__card__content'>
-              <h6>Web</h6> <p>I am a frontend web developer. Various client side programming languages to create websites. </p>
+              <h6>Development</h6> <p>I am a frontend web developer. Various client side programming languages to create websites. </p>
             </div>
           </div>
         </div>
@@ -73,7 +73,7 @@ const About = () => {
             </div>
 
             <div className='about__cards__card__content'>
-              <h6>Identity</h6> <p>I create identity systems for brands and entities. From logos to image-making, I create visual language. </p>
+              <h6>Data</h6> <p>I create identity systems for brands and entities. From logos to image-making, I create visual language. </p>
             </div>
           </div>
 
