@@ -1,8 +1,8 @@
 import React, { useRef } from 'react';
 import { useForm, ValidationError } from '@formspree/react';
-import inquire_codepen from './Icons/inquire_codepen.svg';
-import inquire_github from './Icons/inquire_github.svg';
-import inquire_twitter from './Icons/inquire_twitter.svg';
+import inquire_codepen from '../Components/Utils/Assets/Icons/inquire_codepen.svg';
+import inquire_github from '../Components/Utils/Assets/Icons/inquire_github.svg';
+import inquire_twitter from '../Components/Utils/Assets/Icons/inquire_twitter.svg';
 
 function Inquire() {
   const closeSuccessWindow = () => {

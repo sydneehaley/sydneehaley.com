@@ -1,5 +1,5 @@
 import React from 'react';
-import { Data } from './Utils/Data/Services.js';
+import { Data } from '../Components/Utils/Data/Services';
 
 const Services = () => {
   const ServicesBlockFirst = Data.slice(0, 4);

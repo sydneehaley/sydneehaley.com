@@ -7,16 +7,16 @@ import { FormspreeProvider } from '@formspree/react';
 import NavBar from './Components/NavBar';
 import Functions from './Components/Utils/Data/Functions';
 
-import navbar_info from './Components/Icons/navbar_info.svg';
-import navbar_inquire from './Components/Icons/navbar_inquire.svg';
-import navbar_projects from './Components/Icons/navbar_projects.svg';
-import navbar_services from './Components/Icons/navbar_services.svg';
-import navbar_arrowdown from './Components/Icons/navbar_arrowdown.svg';
+import navbar_info from './Components/Utils/Assets/Icons/navbar_info.svg';
+import navbar_inquire from './Components/Utils/Assets/Icons/navbar_inquire.svg';
+import navbar_projects from './Components/Utils/Assets/Icons/navbar_projects.svg';
+import navbar_services from './Components/Utils/Assets/Icons/navbar_services.svg';
+import navbar_arrowdown from './Components/Utils/Assets/Icons/navbar_arrowdown.svg';
 import HomeIcon from '@mui/icons-material/Home';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
-import mobile_nav_icon from './Components/Icons/mobile_nav_icon.svg';
-import navbar_home from './Components/Icons/navbar_home.svg';
+import mobile_nav_icon from './Components/Utils/Assets/Icons/mobile_nav_icon.svg';
+import navbar_home from './Components/Utils/Assets/Icons/navbar_home.svg';
 import { css } from '@emotion/react';
 import RingLoader from 'react-spinners/RingLoader';
 

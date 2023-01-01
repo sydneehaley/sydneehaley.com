@@ -1,5 +1,5 @@
 import React from 'react';
-import target from './Icons/target.svg';
+import target from '../Components/Utils/Assets/Icons/target.svg';
 
 const About = () => {
   return (

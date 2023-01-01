@@ -8,8 +8,8 @@ import navbar_services from '../Components/Utils/Assets/Icons/navbar_services.sv
 import navbar_arrowdown from '../Components/Utils/Assets/Icons/navbar_arrowdown.svg';
 import HomeIcon from '@mui/icons-material/Home';
 import CloseIcon from '@mui/icons-material/Close';
-import mobile_nav_icon from './Icons/mobile_nav_icon.svg';
-import navbar_home from './Icons/navbar_home.svg';
+import mobile_nav_icon from '../Components/Utils/Assets/Icons/mobile_nav_icon.svg';
+import navbar_home from '../Components/Utils/Assets/Icons/navbar_home.svg';
 
 const anchors = ['firstPage', 'secondPage', 'thirdPage', 'fourthPage'];
 
